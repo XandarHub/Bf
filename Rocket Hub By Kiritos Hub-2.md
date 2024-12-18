@@ -2033,12 +2033,12 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 55, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "rbxassetid://95672285073968"
+ImageButton.Image = "rbxassetid://82059635556284"
 
 UICorner.Parent = ImageButton	
 
 ClickSound.Parent = ImageButton
-ClickSound.SoundId = "rbxassetid://130785805"
+ClickSound.SoundId = "rbxassetid://82059635556284"
 ClickSound.Volume = 1
 
 local function playClickAnimation()
