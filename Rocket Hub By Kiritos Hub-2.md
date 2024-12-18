@@ -2060,12 +2060,12 @@ ImageButton.MouseButton1Down:Connect(function()
 end)
 
 local Window = Fluent:CreateWindow({
-    Title = "Rocket Hub " .. Fluent.Version,
+    Title = "RazerHub " .. Fluent.Version,
     SubTitle = "Version : Thai & England",
     TabWidth = 100,
     Size = UDim2.fromOffset(480, 380),
     Acrylic = false,
-    Theme = "Light",
+    Theme = "Dark",
     MinimizeKey = Enum.KeyCode.LeftControl
 })
 
