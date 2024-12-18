@@ -2087,30 +2087,30 @@ end
 
 PosY = "35"
 
-local Main = Tabs.Main:AddSection("เครดิต Credit")
+local Main = Tabs.Main:AddSection("Credit")
 Tabs.Main:AddParagraph({
-        Title = "⚡ Credit you Rocket & Kiritos"
+        Title = "Credit Razer Hun"
 })
-Tabs.Main:AddButton({
-    Title = "YouTube : Rocket",
-    Description = "ช่องยูทูปคุณร็อคเก็ต",
+Tabs.Ma in:AddButton({
+    Title = "YouTube : Razer Hub",
+    Description = "ช่องยูทูป Razer Hub",
     Callback = function()
     game.StarterGui:SetCore("SendNotification", {
-        Title = "คุณ : ร็อคเก็ตฮับ ✅",
-        Text = "Press Follow Channel @Rocketscript คนหล่อ",
+        Title = "คุณ : Razer Hub✅",
+        Text = "Press Follow Channel @Razer Hub",
         Duration = 6
     })
         setclipboard("https://youtube.com/@rocketscript?si=4h1ShiGwW4ECKeMr")
     end
 })
 Tabs.Main:AddButton({
-    Title = "Discord : Kiritos Hub",
-    Description = "ช่องดิสคอร์ดของผู้ทำโปร",
+    Title = "Discord : Razer Hub",
+    Description = "ดิสคอร์ดผู้ทำโปร",
     Callback = function()
     game.StarterGui:SetCore("SendNotification", {
-        Title = "คุณ : คิริโตะฮับ ✅",
-        Text = "Discord : Kiritos Hub & @kiritosx2pro ผู้เขียนโปร",
-        Icon = "rbxassetid://18888999404",
+        Title = "คุณ : Razer Hub ✅",
+        Text = "Discord : Razer Hub ผู้เขียนโปร",
+        Icon = "rbxassetid://82059635556284",
         Duration = 6
     })
         setclipboard("https://discord.gg/C4K6xGtzpa")
