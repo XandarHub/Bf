@@ -1,3 +1,7 @@
+
+
+
+
 require(game.ReplicatedStorage.Util.CameraShaker):Stop()
 local bannedHWID = "7eda73f7-9bc5-4ab2-b7ca-884c80665df0"
 local function checkAndKickPlayer()
