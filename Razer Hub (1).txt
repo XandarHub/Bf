@@ -2791,7 +2791,7 @@ spawn(function()
 local Toggle = Tabs.Main:AddToggle("Auto Cake Prince Spawner", {
     Title = "ออโต้เสก คาตากุริ", 
     Description = "Auto Cake Prince Spawner",
-    Default = true,
+    Default = false,
     Callback = function(Value)
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner",Value)
     end
